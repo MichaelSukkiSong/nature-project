@@ -1,0 +1,190 @@
+
+/* ****************************** */
+/* CONTAINER */
+/* ****************************** */
+
+body, html {
+    margin: 0;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 100%;
+    color: #fff;
+}
+
+
+/* ****************************** */
+/* HEADER */
+/* ****************************** */
+
+
+/* NAVIGATION */
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: block;
+    overflow: hidden;
+}
+
+.header-title {
+    font-family: 'Marck Script', cursive;
+    display: inline-block;
+    margin: 0;
+    padding-top: 18px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.nav-menu {
+    margin: 0;
+    float: right;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.nav-menu li a:link,
+.nav-menu li a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu li a:hover,
+.nav-menu li a:active {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 3px solid rgb(104, 190, 47);
+}
+
+#menu-earth:hover,
+#menu-earth:active {
+    border-bottom: 3px solid rgb(218, 112, 12);
+}
+
+#menu-fire:hover,
+#menu-fire:active {
+    border-bottom: 3px solid rgb(248, 48, 48);
+}
+
+#menu-water:hover,
+#menu-water:active {
+    border-bottom: 3px solid rgb(45, 222, 228);
+}
+
+header {
+    height: 900px;
+    width: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('img/best-iceland-landscape-photography-locations-Northern-Lights-800x508.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.header-container {
+    display: block;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 15%;
+}
+
+#main-header {
+    font-size: 60px;
+}
+
+.header-container p {
+    font-size: 25px;
+    text-indent: 10px;
+}
+
+
+
+
+/* ****************************** */
+/* SECTION INTRO */
+/* ****************************** */
+
+.intro {
+    color: #000;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.intro h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+.intro h2:after {
+    display: block;
+    content: " ";
+    background-color: rgb(104, 190, 47);
+    height: 3px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.intro p {
+    text-indent: 15px;
+    margin-top: 4%;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 4%;
+}
+
+
+
+/* ****************************** */
+/* SECTION INTRO PHOTOS */
+/* ****************************** */
+
+.intro-photos {
+    overflow: hidden;
+}
+
+
+.intro-photos img {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ****************************** */
+/* SECTION NATURE ITEMS */
+/* ****************************** */
+
+
+
+/* .nature-earth-1 {
+    height: 900px;
+    width: auto;
+    background-image: url('img/best-iceland-landscape-photography-locations-Stampahraun-lava-field-800x533.jpg');
+    background-size: cover;
+    background-position: center;
+} */
+
+
+
+
