@@ -81,6 +81,8 @@ nav {
 .nav-menu li a:visited {
     text-decoration: none;
     color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 1s;
 }
 
 .nav-menu li a:hover,
@@ -491,11 +493,12 @@ footer {
 .nature-photos h2 {
     color: #000;
     font-size: 200%;
-    margin-left: 20px;
+    margin-left: 15%;
+    margin-bottom: 10%;
 }
 
 .photos img {
-    max-width: 49%;
+    max-width: 33%;
 }
 
 .nature-photos {
@@ -514,7 +517,18 @@ ion-icon {
 
 
 
+/* ****************************** */
+/* ANIMATE.CSS */
+/* ****************************** */
 
+#main-header {
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    /* animation-iteration-count: infinite; */
+}
 
-
+blockquote {
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
 
