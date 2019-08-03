@@ -214,7 +214,7 @@ header {
 
 .nature-earth {
     color: #000;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 .nature-earth h2 {
@@ -286,7 +286,7 @@ header {
 
 .nature-fire {
     color: #000;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 .nature-fire h2 {
@@ -365,7 +365,7 @@ header {
 
 .nature-water {
     color: #000;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 .nature-water h2 {
@@ -445,6 +445,7 @@ cite {
 
 footer {
     background-color: rgba(8, 20, 8, 0.897);
+    padding: 40px;
 }
 
 .footer-nav {
@@ -480,4 +481,28 @@ footer {
     text-align: center;
     color: rgb(128,128,128);
 }
+
+
+
+/* ****************************** */
+/* NATURE PHOTOS */
+/* ****************************** */
+
+.nature-photos h2 {
+    color: #000;
+    font-size: 200%;
+    margin-left: 20px;
+}
+
+.photos img {
+    max-width: 49%;
+}
+
+
+
+
+
+
+
+
 
