@@ -1,4 +1,15 @@
 /* ****************************** */
+/* GLOBAL */
+/* ****************************** */
+
+p {
+    line-height: 150%
+}
+
+
+
+
+/* ****************************** */
 /* SPACING */
 /* ****************************** */
 
@@ -98,7 +109,7 @@ nav {
 header {
     height: 900px;
     width: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('img/best-iceland-landscape-photography-locations-Northern-Lights-800x508.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.4)),  url('img/best-iceland-landscape-photography-locations-Northern-Lights-800x508.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -185,7 +196,7 @@ header {
 .earth-elements-header {
     height: 900px;
     width: auto;
-    background-image: url('img/earth_iceland.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.4)),  url('img/earth_iceland.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -257,7 +268,7 @@ header {
 .fire-elements-header {
     height: 900px;
     width: auto;
-    background-image: url('img/fire.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.4)), url('img/fire.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -336,7 +347,7 @@ header {
 .water-elements-header {
     height: 900px;
     width: auto;
-    background-image: url('img/water.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.4)), url('img/water.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -395,3 +406,39 @@ header {
 .nature-water:nth-child(2n) {
     background-color: #f4f4f4;
 }
+
+
+/* ****************************** */
+/* QUOTES */
+/* ****************************** */
+
+
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 200%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+
+
+
+
