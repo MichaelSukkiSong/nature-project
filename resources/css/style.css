@@ -347,7 +347,7 @@ header {
 .water-elements-header {
     height: 900px;
     width: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.4)), url('img/water.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.4)), url('img/waterrr.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -439,6 +439,45 @@ cite {
 }
 
 
+/* ****************************** */
+/* FOOTER */
+/* ****************************** */
 
+footer {
+    background-color: rgba(8, 20, 8, 0.897);
+}
 
+.footer-nav {
+    display: block;
+}
+
+.footer-nav ul {
+    list-style: none;
+    margin-top: 0;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+
+.footer-nav ul li a:link,
+.footer-nav ul li a:visited {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+.footer-nav ul li a:hover,
+.footer-nav ul li a:active {
+    color: #ddd;
+}
+
+.footer p {
+    display: block;
+    margin: 0;
+    text-align: center;
+    color: rgb(128,128,128);
+}
 
