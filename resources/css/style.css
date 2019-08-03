@@ -316,3 +316,82 @@ header {
 .nature-fire:nth-child(2n) {
     background-color: #f4f4f4;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************************** */
+/* WATER HEADER */
+/* ****************************** */
+
+.water-elements-header {
+    height: 900px;
+    width: auto;
+    background-image: url('img/water.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 10px;
+}
+
+.elements-header .header-container h1 {
+    font-size: 60px;
+}
+
+
+/* ****************************** */
+/* SECTION WATER ITEMS */
+/* ****************************** */
+
+.nature-water {
+    color: #000;
+    padding-top: 40px;
+}
+
+.nature-water h2 {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 0;
+}
+
+.nature-water h2:after {
+    display: block;
+    content: " ";
+    background-color: rgb(104, 190, 47);
+    height: 3px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+}
+
+.nature-water img {
+    display: inline-block;
+    height: 500px;
+    width: 48%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.nature-water p {
+    display: inline-block;
+    float: right;
+    margin: 60px 40px;
+    width: 45%;
+    font-size: 25px;
+    text-indent: 10px;
+}
+
+.nature-water:nth-child(2n) {
+    background-color: #f4f4f4;
+}
