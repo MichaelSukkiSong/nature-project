@@ -182,7 +182,7 @@ header {
 /* EARTH HEADER */
 /* ****************************** */
 
-.elements-header {
+.earth-elements-header {
     height: 900px;
     width: auto;
     background-image: url('img/earth_iceland.jpg');
@@ -195,11 +195,6 @@ header {
 .elements-header .header-container h1 {
     font-size: 60px;
 }
-
-
-
-
-
 
 
 /* ****************************** */
@@ -255,3 +250,69 @@ header {
 
 
 
+/* ****************************** */
+/* FIRE HEADER */
+/* ****************************** */
+
+.fire-elements-header {
+    height: 900px;
+    width: auto;
+    background-image: url('img/fire.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 10px;
+}
+
+.elements-header .header-container h1 {
+    font-size: 60px;
+}
+
+
+/* ****************************** */
+/* SECTION FIRE ITEMS */
+/* ****************************** */
+
+.nature-fire {
+    color: #000;
+    padding-top: 40px;
+}
+
+.nature-fire h2 {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 0;
+}
+
+.nature-fire h2:after {
+    display: block;
+    content: " ";
+    background-color: rgb(104, 190, 47);
+    height: 3px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+}
+
+.nature-fire img {
+    display: inline-block;
+    height: 500px;
+    width: 48%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.nature-fire p {
+    display: inline-block;
+    float: right;
+    margin: 60px 40px;
+    width: 45%;
+    font-size: 25px;
+    text-indent: 10px;
+}
+
+.nature-fire:nth-child(2n) {
+    background-color: #f4f4f4;
+}
