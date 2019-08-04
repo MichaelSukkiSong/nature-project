@@ -536,13 +536,31 @@ footer {
     margin-bottom: 10%;
 }
 
-.photos img {
-    max-width: 33%;
+.photos {
+    margin: 0 15% 0 15%;
 }
 
-.nature-photos {
-    display: block;
+.photos ul {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
 }
+
+.photos ul li {
+    margin: 0;
+    width: 48%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+.photos ul li img {
+    width: 100%;
+    float: left;
+}
+
 
 /* ****************************** */
 /* ICONS */
