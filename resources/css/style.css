@@ -187,16 +187,35 @@ header {
 /* SECTION INTRO PHOTOS */
 /* ****************************** */
 
-.intro-photos {
+.photo-bundle {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 0;
     overflow: hidden;
 }
 
-
-.intro-photos img {
+.photo-bundle li {
     width: 50%;
-    height: 400px;
+    height: auto;
     float: left;
+    background-color: #000;
+    overflow: hidden;
 }
+
+.photo-bundle li img {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+}
+
+.photo-bundle li img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
 
 
 /* ****************************** */
