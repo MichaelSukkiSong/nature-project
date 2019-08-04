@@ -56,10 +56,17 @@ nav {
     font-family: 'Marck Script', cursive;
     display: inline-block;
     margin: 0;
-    padding-top: 18px;
+    padding-top: 15px;
     padding-left: 20px;
     color: #fff;
     margin-left: 15%;
+
+}
+
+.header-title a:link,
+.header-title a:visited {
+    text-decoration: none;
+    color: #fff;
 }
 
 .nav-menu {
@@ -214,7 +221,7 @@ header {
 }
 
 .elements-header .header-container-earth h1 {
-    font-size: 60px;
+    font-size: 400%;
 }
 
 
