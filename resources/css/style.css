@@ -116,7 +116,7 @@ nav {
 }
 
 header {
-    height: 900px;
+    height: 1200px;
     width: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.4)),  url('img/best-iceland-landscape-photography-locations-Northern-Lights-800x508.jpg');
     background-size: cover;
@@ -204,7 +204,7 @@ header {
 /* ****************************** */
 
 .earth-elements-header {
-    height: 900px;
+    height: 1000px;
     width: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.4)),  url('img/earth_iceland.jpg');
     background-size: cover;
@@ -283,7 +283,7 @@ header {
 /* ****************************** */
 
 .fire-elements-header {
-    height: 900px;
+    height: 1000px;
     width: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.4)), url('img/fire.jpg');
     background-size: cover;
@@ -360,7 +360,7 @@ header {
 /* ****************************** */
 
 .water-elements-header {
-    height: 900px;
+    height: 1000px;
     width: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.4)), url('img/waterrr.jpg');
     background-size: cover;
@@ -541,6 +541,7 @@ ion-icon {
 /* ANIMATE.CSS */
 /* ****************************** */
 
+/* static animation */
 #main-header {
     animation-duration: 1s;
     animation-delay: 0.5s;
@@ -551,6 +552,25 @@ blockquote {
     animation-duration: 1s;
     animation-delay: 0.5s;
 }
+
+/* scroll animation*/
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5 {
+    opacity: 0;
+    animation-duration: 1.5s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated,
+.js--wp-4.animated,
+.js--wp-5.animated {
+    opacity: 1;
+}
+
 
 
 /* ****************************** */
@@ -579,7 +599,7 @@ blockquote {
     width: 300px;
     height: auto;
     margin: 0 40% 10% 40%;
-    background-color: rgba(46, 95, 39, 0.98);
+    background-color: rgba(60, 161, 46, 0.98);
     text-align: center;
     border-radius: 10px;
     padding: 5px 5px;
@@ -595,9 +615,8 @@ blockquote {
 
 .btn:hover,
 .btn:active {
-    background-color: rgba(60, 161, 46, 0.98);
+    background-color: rgba(46, 95, 39, 0.98);
     transition: background-color 1s;
-
 }
 
 
