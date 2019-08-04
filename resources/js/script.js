@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
 
+    // stick navigation
     var waypoints = $('.js--intro').waypoint(function(direction) {
         if (direction == 'down') {
             $('nav').addClass('sticky');
@@ -10,6 +11,13 @@ $(document).ready(function() {
     }, {
       offset: '25%'
     })
+
+
+
+    // click button and scroll to dest
+    $('.js--scroll-to-photos').click(function() {
+        $('html, body').animate({scrollTop: $('.js--photos').offset().top}, 1000);
+    });
 
 });
 

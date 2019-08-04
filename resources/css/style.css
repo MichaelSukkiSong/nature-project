@@ -89,7 +89,7 @@ nav {
     text-decoration: none;
     color: #fff;
     border-bottom: 2px solid transparent;
-    transition: border-bottom 1s;
+    transition: border-bottom 0.5s;
 }
 
 .nav-menu li a:hover,
@@ -567,3 +567,40 @@ blockquote {
     z-index: 9999;
     margin-bottom: 0;
 }
+
+
+
+/* ****************************** */
+/* BUTTONS */
+/* ****************************** */
+
+.btn {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0 40% 10% 40%;
+    background-color: rgba(46, 95, 39, 0.98);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.btn a:link,
+.btn a:visited {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: rgba(60, 161, 46, 0.98);
+    transition: background-color 1s;
+
+}
+
+
+
+
+
