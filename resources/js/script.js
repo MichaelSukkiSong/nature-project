@@ -53,6 +53,7 @@ $(document).ready(function() {
 
 
 
+
     // magnific popup
     $('#open-popup').magnificPopup({
         items: [

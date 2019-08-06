@@ -652,7 +652,7 @@ blockquote {
 
 .btn {
     display: block;
-    width: 300px;
+    width: auto;
     height: auto;
     margin: 0 40% 10% 40%;
     background-color: rgba(60, 161, 46, 0.98);
@@ -666,7 +666,7 @@ blockquote {
     text-decoration: none;
     color: #fff;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .btn:hover,
