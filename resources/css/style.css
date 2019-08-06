@@ -208,6 +208,7 @@ header {
     opacity: 0.5;
     width: 100%;
     height: auto;
+    transition: transform 2s;
 }
 
 .photo-bundle li img:hover {
@@ -554,12 +555,23 @@ footer {
     height: auto;
     overflow: hidden;
     float: left;
+    background-color: #000;
 }
 
 .photos ul li img {
+    opacity: 0.5;
     width: 100%;
     float: left;
+    transition: transform 2s;
+
 }
+
+.photos ul li img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
 
 
 /* ****************************** */
@@ -658,5 +670,18 @@ blockquote {
 
 
 
+/* ****************************** */
+/* MAGNIFIC POPUP */
+/* ****************************** */
 
+#open-popup {padding:20px}
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 40px;
+  width: auto;
+  max-width: 200px;
+  margin: 20px auto;
+  text-align: center;
+}
 
