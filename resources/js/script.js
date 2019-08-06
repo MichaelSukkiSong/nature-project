@@ -57,24 +57,36 @@ $(document).ready(function() {
     $('#open-popup').magnificPopup({
         items: [
           {
-            src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
-            title: 'Peter & Paul fortress in SPB'
+            src: 'https://ipt.imgix.net/196438/x/0/black-sands-meet-the-powerful-atlantic-ocean-on-iceland-s-south-coast.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-2.3.0&w=750',
+            title: 'Black Sand Beaches'
           },
           {
-            src: 'https://vimeo.com/123123',
-            type: 'iframe' // this overrides default type
+            src: 'https://ipt.imgix.net/196440/x/0/mount-vestrahorn-rises-up-over-the-stokksnes-peninsula-here-you-can-see-it-reflected-in-the-shiny-black-sands.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-2.3.0&w=750',
+            title: 'Vestrahorn Mountain'
           },
           {
-            src: $('<div class="white-popup">Dynamically created element</div>'), // Dynamically created element
-            type: 'inline'
+            src: 'https://ipt.imgix.net/196441/x/0/the-chunks-of-ice-at-iceland-s-diamon-beach-are-guaranteed-to-impress-whatever-the-time-of-day.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-2.3.0&w=750',
+            title: 'Jokulsarlon Glacier Lagoon & Diamond Beach'
           },
           {
-            src: '<div class="white-popup">Popup from HTML string</div>', // HTML string
-            type: 'inline'
+            src: 'https://ipt.imgix.net/196439/x/0/the-diamond-beach-is-a-haven-for-landscape-photographers.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-2.3.0&w=750',
+            title: 'Vatnajokull National Park'
           },
           {
-            src: '#my-popup', // CSS selector of an element on page that should be used as a popup
-            type: 'inline'
+            src: 'https://ipt.imgix.net/196436/x/0/the-glorious-colours-of-midnight-sun-in-iceland-here-captured-in-reykjavik.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-2.3.0&w=750',
+            title: 'Arrival'
+          },
+          {
+            src: 'https://ipt.imgix.net/199435/x/0/the-mighty-dettifoss-waterfall-is-often-considered-the-most-powerful-in-the-whole-of-europe.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-2.3.0&w=750',
+            title: 'Dettifoss Waterfall'
+          },
+          {
+            src: 'https://ipt.imgix.net/196444/x/0/the-most-remote-region-in-the-whole-of-iceland-is-arguably-the-highlands.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-2.3.0&w=750',
+            title: 'To Reykjavik Through the Highlands'
+          },
+          {
+            src: 'https://ipt.imgix.net/196437/x/0/there-is-a-large-cavern-behind-seljalandsfoss-waterfall-allowing-visitors-to-walk-the-whole-way-around-it.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-2.3.0&w=750',
+            title: 'South Coast Waterfalls'
           }
         ],
         gallery: {

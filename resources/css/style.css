@@ -17,7 +17,7 @@ p {
     display: block;
     max-width: 100%;
     color: #fff;
-    height: 300px;
+    height: 250px;
 }
 
 
@@ -529,6 +529,13 @@ footer {
 /* ****************************** */
 /* NATURE PHOTOS */
 /* ****************************** */
+.nature-photos {
+    background-color: #f4f4f4;
+}
+
+.photo-title {
+    padding-top: 10px;
+}
 
 .nature-photos h2 {
     color: #000;
